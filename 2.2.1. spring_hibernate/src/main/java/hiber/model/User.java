@@ -68,10 +68,10 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+        return "User {\n" +
+                "\tfirstName='" + firstName + '\'' +
+                ",\n\tlastName='" + lastName + '\'' +
+                ",\n\temail='" + email + '\'' +
+                "\n}";
     }
 }

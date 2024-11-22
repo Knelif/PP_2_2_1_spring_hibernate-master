@@ -2,7 +2,6 @@ package hiber.dao;
 
 import hiber.model.Car;
 import hiber.model.User;
-import hiber.service.UserServiceImp;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
